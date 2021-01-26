@@ -1,0 +1,501 @@
+/* MOVEABLE TYPE EXPERIMENT */
+
+
+
+/* Base styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20PX;
+  font-size: 25px;
+font-family: 'Kavoon', cursive;
+  font-weight: normal;
+  color: black;
+  background-color: pink;
+  background-image: url('https://st.depositphotos.com/3470617/4920/v/950/depositphotos_49204255-stock-illustration-sandwich-pattern.jpg');
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer{
+  font-size: 1vw;
+  text-align: left;
+font-family: 'Oldenburg', cursive;
+  color: black;
+}
+
+.bread {
+  font-size: 3vw;
+  text-align: center;
+font-family: 'Kavoon', cursive;
+  -webkit-text-stroke: 2px black;
+  color: #8b4513;
+}
+
+.bread span {
+  display: inline-block;
+  animation-name: bread-shit;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  transform: skewx(10deg)
+}
+
+.bread span:nth-child(1) {
+  animation-delay: 1s
+}
+.bread span:nth-child(2) {
+  animation-delay: 1.5s
+}
+.bread span:nth-child(3) {
+  animation-delay: 1.75s
+}
+.bread span:nth-child(4) {
+  animation-delay: 2s
+}
+
+.bread span:nth-child(5) {
+  animation-delay: 2.25s
+}
+
+.bread span:nth-child(6) {
+  animation-delay: 2.5s
+}
+
+.bread span:nth-child(7) {
+  animation-delay: 2.75s
+}
+
+.bread span:nth-child(8) {
+  animation-delay: 3s
+}
+
+@keyframes bread-shit {
+  from {opacity: 0%;
+    transform: scale(2);
+  }
+  to {opacity: 100%;
+    transform: scale(1);
+  }
+
+}
+
+.spinach {
+  font-size: 3vw;
+  text-align: center;
+font-family: 'Kavoon', cursive;
+  -webkit-text-stroke: 2px black;
+  color: #006400;
+}
+
+.spinach span {
+  display: inline-block;
+  animation-name: spinach-shit;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  transform: skewx(10deg)
+}
+
+.spinach span:nth-child(1) {
+  animation-delay: 3.25s
+}
+.spinach span:nth-child(2) {
+  animation-delay: 3.5s
+}
+.spinach span:nth-child(3) {
+  animation-delay: 3.75s
+}
+.spinach span:nth-child(4) {
+  animation-delay: 4s
+}
+.spinach span:nth-child(5) {
+  animation-delay: 4.25s
+}
+.spinach span:nth-child(6) {
+  animation-delay: 4.5s
+}
+.spinach span:nth-child(7) {
+  animation-delay: 4.75s
+}
+
+@keyframes spinach-shit {
+  from {opacity: 0%;
+    transform: scale(3);
+  }
+  to {opacity: 100%;
+    transform: scale(1);
+  }
+
+}
+
+.mustard {
+  font-size: 3vw;
+  text-align: center;
+font-family: 'Kavoon', cursive;
+  -webkit-text-stroke: 2px black;
+  color: #ffdb58;
+}
+
+.mustard span {
+  display: inline-block;
+  animation-name: mustard-shit;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  transform: skewx(10deg)
+}
+
+.mustard span:nth-child(1) {
+  animation-delay: 5s
+}
+.mustard span:nth-child(2) {
+  animation-delay: 5.25s
+}
+.mustard span:nth-child(3) {
+  animation-delay: 5.5s
+}
+.mustard span:nth-child(4) {
+  animation-delay: 5.75s
+}
+.mustard span:nth-child(5) {
+  animation-delay: 6s
+}
+.mustard span:nth-child(6) {
+  animation-delay: 6.25s
+}
+.mustard span:nth-child(7) {
+  animation-delay: 6.5s
+}
+
+@keyframes mustard-shit {
+  from {
+    opacity: 0%;
+    transform: scale(4);
+  }
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+}
+
+.turkey {
+  font-size: 3vw;
+  text-align: center;
+font-family: 'Kavoon', cursive;
+  -webkit-text-stroke: 2px black;
+  color: #e9967a;
+}
+
+.turkey span {
+  display: inline-block;
+  animation-name: turkey-shit;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  transform: skewx(10deg)
+}
+
+.turkey span:nth-child(1) {
+  animation-delay: 6.75s
+}
+.turkey span:nth-child(2) {
+  animation-delay: 7s
+}
+.turkey span:nth-child(3) {
+  animation-delay: 7.25s
+}
+.turkey span:nth-child(4) {
+  animation-delay: 7.5s
+}
+.turkey span:nth-child(5) {
+  animation-delay: 7.75s
+}
+.turkey span:nth-child(6) {
+  animation-delay: 8s
+}
+
+
+@keyframes turkey-shit {
+  from {
+    opacity: 0%;
+    transform: scale(5);
+  }
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+}
+
+.cheese {
+  font-size: 3vw;
+  text-align: center;
+font-family: 'Kavoon', cursive;
+  -webkit-text-stroke: 2px black;
+  color: 	#ffbf00;
+}
+
+.cheese span {
+  display: inline-block;
+  animation-name: cheese-shit;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+  transform: skewx(10deg)
+}
+
+.cheese span:nth-child(1) {
+  animation-delay: 8.25s
+}
+.cheese span:nth-child(2) {
+  animation-delay: 8.5s
+}
+.cheese span:nth-child(3) {
+  animation-delay: 8.75s
+}
+.cheese span:nth-child(4) {
+  animation-delay: 9s
+}
+.cheese span:nth-child(5) {
+  animation-delay: 9.25s
+}
+.cheese span:nth-child(6) {
+  animation-delay: 9.5s
+}
+
+
+@keyframes cheese-shit {
+  from {
+    opacity: 0%;
+    transform: scale(7);
+  }
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+}
+
+.onion {
+  font-size: 3vw;
+  text-align: center;
+font-family: 'Kavoon', cursive;
+  -webkit-text-stroke: 2px black;
+  color: #fff8e7;
+}
+
+.onion span {
+  display: inline-block;
+  animation-name: onion-shit;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+  transform: skewx(10deg)
+}
+
+.onion span:nth-child(1) {
+  animation-delay: 9.75s
+}
+.onion span:nth-child(2) {
+  animation-delay: 10s
+}
+.onion span:nth-child(3) {
+  animation-delay: 10.25s
+}
+.onion span:nth-child(4) {
+  animation-delay: 10.5s
+}
+.onion span:nth-child(5) {
+  animation-delay: 10.75s
+}
+
+
+
+@keyframes onion-shit {
+  from {
+    opacity: 0%;
+    transform: scale(8);
+  }
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+}
+
+
+.salami {
+  font-size: 3vw;
+  text-align: center;
+font-family: 'Kavoon', cursive;
+  -webkit-text-stroke: 2px black;
+  color: 	#800000;
+}
+
+.salami span {
+  display: inline-block;
+  animation-name: salami-shit;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  transform: skewx(10deg)
+}
+
+.salami span:nth-child(1) {
+  animation-delay: 11s
+}
+.salami span:nth-child(2) {
+  animation-delay: 11.25s
+}
+.salami span:nth-child(3) {
+  animation-delay: 11.5s
+}
+.salami span:nth-child(4) {
+  animation-delay: 11.75s
+}
+.salami span:nth-child(5) {
+  animation-delay: 12s
+}
+.salami span:nth-child(6) {
+  animation-delay: 12.25s
+}
+
+
+@keyframes salami-shit {
+  from {
+    opacity: 0%;
+    transform: scale(9);
+  }
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+}
+
+.bready {
+  font-size: 3vw;
+  text-align: center;
+font-family: 'Kavoon', cursive;
+  -webkit-text-stroke: 2px black;
+  color: #8b4513;
+  padding-bottom: 2em;
+}
+
+.bready span {
+  display: inline-block;
+  animation-name: bready-shit;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  transform: skewx(10deg)
+}
+
+.bready span:nth-child(1) {
+  animation-delay: 12.5s
+}
+.bready span:nth-child(2) {
+  animation-delay: 12.75s
+}
+.bready span:nth-child(3) {
+  animation-delay: 13s
+}
+.bready span:nth-child(4) {
+  animation-delay: 13.25s
+}
+.bready span:nth-child(5) {
+  animation-delay: 13.5s
+}
+
+@keyframes bready-shit {
+  from {
+    opacity: 0%;
+    transform: scale(10);
+  }
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+}
+
+
+
+
+
+ /*progress bar*/
+
+.progress {
+  border: 1px solid;
+  max-width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.25em;
+  position: relative;
+    font-family: 'Oldenburg', cursive;
+
+}
+
+.progress-bar {
+  background-color: pink;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  animation-name: prog;
+  animation-duration: 14s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+  font-family: 'Oldenburg', cursive;
+}
+
+@keyframes prog {
+
+  from {
+    opacity: 0%;
+    width: 0%;
+    background-color: white;
+  }
+
+  to {
+    width: 100%;
+    opacity: 100%;
+    background-color: pink;
+  }
+}
+
+
+/* Intro */
+
+.intro {
+  padding-top: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+background-image: url('https://cdn.shopify.com/s/files/1/1520/5960/articles/6cfb0168-family-tie-dye.jpg?v=1563826773');
+  z-index: 2;
+  animation-name: sick-intro;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+@keyframes sick-intro {
+  from {
+    transform: translatey(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translatey(100vh);
+    opacity: 0;
+  }
+
+}
