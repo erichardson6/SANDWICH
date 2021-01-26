@@ -470,10 +470,7 @@ font-family: 'Kavoon', cursive;
 
 
 /* Intro */
-intro { font-size: 5em;}
-
 .intro {
-  font-size: 5em;
   padding-top: 300px;
   position: fixed;
   top: 0;
